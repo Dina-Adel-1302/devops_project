@@ -10,6 +10,25 @@ kindly find the full description [here](https://github.com/Dina-Adel-1302/devops
 - [terraform](https://developer.hashicorp.com/terraform/downloads)
 - [docker engine](https://docs.docker.com/engine/install/)
 
+## run:
+1. clone the project and move inside devops_project directory
+2. start minikube container
+```
+minikube start --driver=docker
+```
+3. start terraform and run the code
+```
+terraform init
+```
+```
+terraform plan
+```
+```
+terraform apply --autoapprove
+```
+
+### Jenkins Pod
+
 
 ### project has not finished, I am still working .... 
 
