@@ -6,11 +6,11 @@ kindly find the full description [here](https://github.com/Dina-Adel-1302/devops
 
 ## Tools: 
 
-- [minikube](https://serverok.in/install-minikube-with-docker-driver-on-ubuntu) - single k8s cluster for learning
+- [minikube](https://serverok.in/install-minikube-with-docker-driver-on-ubuntu) -  k8s single cluster for learning
 - [terraform](https://developer.hashicorp.com/terraform/downloads)
 - [docker engine](https://docs.docker.com/engine/install/)
 
-## run:
+## Run:
 1. clone the project and move inside devops_project directory
 2. start minikube container
 ```
@@ -27,10 +27,13 @@ terraform plan
 terraform apply --autoapprove
 ```
 
-### Jenkins Pod
+## Jenkins Pod
+The jenkins pipeline will run docker commands, so the jenkins pod should have docker installed.\
+I followed 2 steps: 
+1. creating custom (jenkins with docker) image: by adding docker repo and installing docker alongside with the jenkins. 
+2. Map the pod's /var/run/docker.sock to the host's /var/run/docker.sock
 
-
-### project has not finished, I am still working .... 
+### project has not finished yet, I am still working .... 
 
 
 
