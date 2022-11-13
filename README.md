@@ -12,10 +12,12 @@ kindly find the full description [here](https://github.com/Dina-Adel-1302/devops
 
 ## Run:
 1. clone the project and move inside devops_project directory
+
 2. start minikube container
 ```
 minikube start --driver=docker
 ```
+
 3. start terraform and run the code
 ```
 terraform init
@@ -29,9 +31,11 @@ terraform apply --auto-approve
 
 ## Jenkins Pod
 The jenkins pipeline will run docker commands, so the jenkins pod should have docker installed.\
-I followed 2 steps: 
+So I followed 2 steps: 
 1. creating custom (jenkins with docker) image: by adding docker repo and installing docker alongside with the jenkins installation. 
 2. Map the pod's /var/run/docker.sock to the host's /var/run/docker.sock
+
+Note: jenkins image used: "jenkins/jenkins" because "jenkins" is no longer supported. 
 
 ### project has not finished yet, I am still working .... 
 
