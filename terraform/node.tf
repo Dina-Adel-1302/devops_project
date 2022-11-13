@@ -60,10 +60,10 @@ resource "kubernetes_secret" "node-secret" {
     namespace = "dev"
   }
   data = {
-    HOST     = "mysql"       #"http://192.168.49.2:30010"          
-    USERNAME = "cm9vdA=="             #"root"
+    HOST     = "mysql"               
+    USERNAME = "root"                #"cm9vdA=="             #"root"
     PASSWORD = "UEFTU3dvcmRAMTIz"     #"PASSword@123"
-    DATABASE = "cGF0aWVudHNkYg=="     #"patientsdb"
+    DATABASE = "patientsdb"
   }
 }
 
