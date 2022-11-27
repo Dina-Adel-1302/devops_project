@@ -1,6 +1,6 @@
 # devops_project
 
-k8s cluster to manage nodejs, mysql, jenkins and nexus pods. 
+k8s cluster to manage nodejs, mysql, jenkins and nexus pods. using terraform and ansible scripts.
 
 kindly find the full description [here](https://github.com/Dina-Adel-1302/devops_project/blob/45329a3efa8acb63c61165af58703f68a3cfc73e/project%20description.pdf)
 
